@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc}     % Codificación de caracteres
+\usepackage[spanish]{babel}     % Idioma del documento
+\usepackage{amsmath, amssymb}   % Paquetes para símbolos y ecuaciones matemáticas
+\usepackage{graphicx}           % Para insertar imágenes
+\usepackage{geometry}           % Control de márgenes
+\usepackage{hyperref}           % Enlaces dentro del documento
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+% Datos del documento
+\title{Informe de Trabajo Matemático}
+\author{Nombre del Autor}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents % Tabla de contenido
+
+\newpage
+
+\section{Introducción}
+
+Este informe trata sobre \textit{tema del trabajo}. En esta sección se incluye una breve descripción del problema que se abordará, los objetivos del informe, y el enfoque general que se utilizará.
+
+\section{Desarrollo Matemático}
+
+\subsection{Definiciones y Teoremas}
+
+Aquí puedes comenzar con algunas definiciones formales o teoremas que serán utilizados a lo largo del informe.
+
+\textbf{Definición 1.} \textit{(Nombre de la definición)}: Definición formal del término o concepto.
+
+\subsection{Demostración del Teorema Principal}
+
+Puedes presentar los teoremas principales seguidos de sus demostraciones. Por ejemplo:
+
+\textbf{Teorema 1.} Sea \( f(x) \) una función continua en el intervalo \([a,b]\). Entonces:
+
+\[
+\int_a^b f(x) \, dx = F(b) - F(a)
+\]
+
+donde \( F(x) \) es una primitiva de \( f(x) \).
+
+\textbf{Demostración.} La demostración sigue de la aplicación del teorema fundamental del cálculo.
+
+\subsection{Ejemplos}
+
+Proporciona ejemplos prácticos que ayuden a ilustrar los conceptos y resultados presentados.
+
+\section{Resultados y Discusión}
+
+En esta sección, se presentan los resultados obtenidos y se discuten sus implicaciones. También puedes añadir gráficos o tablas si es necesario.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{nombre_de_la_imagen.png}
+    \caption{Descripción de la imagen}
+    \label{fig:imagen}
+\end{figure}
+
+\section{Conclusión}
+
+En esta sección se resumen las ideas principales y se mencionan posibles aplicaciones o trabajos futuros relacionados con este informe.
+
+\section{Bibliografía}
+
+Utiliza \texttt{bibtex} o inserta referencias de manera manual. A continuación un ejemplo simple:
+
+\begin{thebibliography}{9}
+
+\bibitem{autor1}
+Autor1, A. \textit{Título del libro o artículo}. Editorial, Año.
+
+\bibitem{autor2}
+Autor2, B. \textit{Título del artículo}. \textit{Nombre de la revista}, Volumen (Año), Páginas.
+
+\end{thebibliography}
+
+\end{document}
