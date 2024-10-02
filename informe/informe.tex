@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc}     % Codificación de caracteres
+\usepackage[spanish]{babel}     % Idioma del documento
+\usepackage{amsmath, amssymb}   % Paquetes para símbolos y ecuaciones matemáticas
+\usepackage{graphicx}           % Para insertar imágenes
+\usepackage{caption}            % Para leyendas
+\usepackage{subcaption}         % Para subfiguras
+\usepackage{geometry}           % Control de márgenes
+\usepackage{hyperref}           % Enlaces dentro del documento
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+% Datos del documento
+\title{Trabajo Práctico 1}
+\author{Alejo Ordoñez - 108397}
+\date{Jueves 26 de Septiembre, 2024}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+
+\newpage
+\section{Introducción}
+
+En este informe se presentan varios resultados obtenidos empíricamente a partir del entrenamiento de una red de Hopfield.\textit{}
+
+
+\begin{figure}[h]  % Inicia el entorno para las imágenes
+    \centering
+    % Primera fila de imágenes
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/paloma.png}  % Reemplaza por el nombre de tus imágenes
+        % \caption{Imagen 1}
+        % \label{fig:imagen1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/panda.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/perro.png}
+    \end{subfigure}
+    
+    % Segunda fila de imágenes
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/quijote.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/torero.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imágenes/v.png}
+    \end{subfigure}
+    
+    \caption{Imágenes utilizadas para el entrenamiento.}
+    \label{fig:imagenes}
+\end{figure}
+
+\begin{thebibliography}{9}
+
+\bibitem{autor1}
+John Hertz, Anders Krogh, Richard G. Palmer, \textit{Introduction to the Theory of Neural Computation}.
+
+\end{thebibliography}
+
+\end{document}
