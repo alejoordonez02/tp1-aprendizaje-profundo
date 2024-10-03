@@ -1,20 +1,12 @@
----
-author:
-- Alejo Ordoñez - 108397
-date: Jueves 26 de Septiembre, 2024
-title:
-- Trabajo Práctico I Aprendizaje Profundo
-- |
-  Trabajo Práctico I\
-  Aprendizaje Profundo
----
+# Trabajo Práctico 1 - Aprendizaje Profundo
+Alejo Ordoñez - 108397
 
-# Introducción
+## Introducción
 
 En este informe se presentan varios resultados obtenidos empíricamente a
 partir del entrenamiento de una red de Hopfield.
 
-# Red de Hopfield
+## Red de Hopfield
 
 Vamos a entrenar un modelo de Hopfield con un conjunto de 6 imágenes.
 Primero vamos a elegir un subconjunto de las mismas para ver si puede
@@ -42,7 +34,7 @@ producto de los patrones con sigo mismos, asegurando el 0 en la
 diagonal, pues las unidades no deben hacer sinpasis consigo mismas en
 este modelo.
 
-## Verifación del aprendizaje
+### Verifación del aprendizaje
 
 Para verificar si la red aprendió o no las imágenes enseñadas,
 intentamos recuperarlas sin ninguna modificación. Se entrena primero el
@@ -55,7 +47,7 @@ entrenamiento.](informe/imágenes/figura2.png){#fig:figura2 width="50%"}
 
 ![Imágenes recuperadas.](informe/imágenes/figura3.png){#fig:figura3 width="50%"}
 
-## Evaluación de versiones alteradas de las imágenes
+### Evaluación de versiones alteradas de las imágenes
 
 Para probar qué tan bien funciona la red, se distorsionan las imágenes
 que se intentan recuperar, con el objetivo de obtener las imágenes
@@ -87,7 +79,7 @@ width="50%"}
 
 ![Imágenes recuperadas.](informe/imágenes/figura9.png){#fig:figura9 width="50%"}
 
-## Existencia de estados epurios
+### Existencia de estados epurios
 
 Un estado epurio es un estado estable que la red aprendió sin que se le
 enseñara. Para evaluar la existencia de estos estados, vamos a intentar
@@ -109,7 +101,7 @@ width="50%"}
 La red recupera estos estados estables, que no se le enseñaron. Y así se
 verifica la existencia de estados epurios.
 
-## Entrenamiento con todas las imágenes
+### Entrenamiento con todas las imágenes
 
 Cuando entrenamos la red con las imágenes de la figura
  [1](#fig:figura1){reference-type="ref" reference="fig:figura1"},
@@ -123,9 +115,9 @@ La red no puede aprender bien los 6 patrones. Esto se debe a un punto
 débil de Hopfield: su capacidad de almacenamiento, que evidentemente, es
 excedida en este caso con 6 patrones.
 
-# Capcaidad de la red
+## Capcaidad de la red
 
-## Capacidad máxima en función del tamaño y error aceptable
+### Capacidad máxima en función del tamaño y error aceptable
 
 En función del tamaño $N$ de la red buscamos, empíricamente, cuál es su
 máxima capacidad de almacenamiento $p_{\text{máx}}$ si toleramos cierta
@@ -152,7 +144,7 @@ siguiente tabla:
   determinados.
 :::
 
-## Capacidad de la red con patrones correlacionados
+### Capacidad de la red con patrones correlacionados
 
 Ahora vamos a realizar el mismo experimento, sólo que esta vez, vamos a
 ir haciendo que la red aprenda más y más patrones correlacionados. Para
