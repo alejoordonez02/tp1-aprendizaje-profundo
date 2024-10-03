@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Red de Hopfield}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Verifación del aprendizaje}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Evaluación de versiones alteradas de las imágenes}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Existencia de estados epurios}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Entrenamiento con todas las imágenes}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Capcaidad de la red}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Capacidad máxima en función del tamaño y error aceptable}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Capacidad de la red con patrones correlacionados}{8}{subsection.3.2}%
